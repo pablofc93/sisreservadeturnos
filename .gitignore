@@ -1,0 +1,152 @@
+
+# ==========================================
+# DEPENDENCIAS
+# ==========================================
+
+/vendor/
+/node_modules/
+
+# ==========================================
+# ARCHIVOS DE ENTORNO Y CREDENCIALES
+# ==========================================
+
+.env
+.env.*
+!.env.example
+auth.json
+
+# ==========================================
+# FRONTEND Y ARCHIVOS GENERADOS
+# ==========================================
+
+/public/build/
+/public/hot
+/public/storage
+
+# ==========================================
+# BASE DE DATOS
+# ==========================================
+
+/database/*.sqlite
+/database/*.sqlite3
+/database/*.sqlite-*
+
+# ==========================================
+# BOOTSTRAP CACHE
+# ==========================================
+
+/bootstrap/cache/*
+!/bootstrap/cache/.gitkeep
+
+# ==========================================
+# STORAGE: ARCHIVOS DE LA APLICACIÓN
+# ==========================================
+
+# Conservar storage/app y storage/app/public
+# No se excluyen sus contenidos.
+
+# ==========================================
+# STORAGE: LOGS
+# ==========================================
+
+/storage/logs/*
+!/storage/logs/.gitkeep
+
+# ==========================================
+# STORAGE: FRAMEWORK
+# ==========================================
+
+# Excluir caché, sesiones, pruebas y vistas compiladas
+/storage/framework/cache/*
+!/storage/framework/cache/data/
+
+/storage/framework/cache/data/*
+!/storage/framework/cache/data/.gitkeep
+
+/storage/framework/sessions/*
+!/storage/framework/sessions/.gitkeep
+
+/storage/framework/testing/*
+!/storage/framework/testing/.gitkeep
+
+/storage/framework/views/*
+!/storage/framework/views/.gitkeep
+
+# ==========================================
+# ARCHIVOS DE LARAVEL
+# ==========================================
+
+/storage/*.key
+
+# ==========================================
+# PRUEBAS Y CACHÉ DE HERRAMIENTAS
+# ==========================================
+
+/.phpunit.result.cache
+/.phpunit.cache/
+
+# ==========================================
+# ARCHIVOS TEMPORALES Y LOGS
+# ==========================================
+
+*.log
+*.bak
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# ==========================================
+# LOGS DE NODE
+# ==========================================
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+# ==========================================
+# SISTEMA OPERATIVO
+# ==========================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+desktop.ini
+$RECYCLE.BIN/
+System Volume Information/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+.directory
+.Trash-*
+
+# ==========================================
+# EDITORES E IDE
+# ==========================================
+
+# Visual Studio Code
+/.vscode/
+
+# JetBrains
+/.idea/
+/.fleet/
+
+# Archivos temporales de editores
+*.sublime-workspace
+*.code-workspace
+
+
+# ==========================================
+# HOMESTEAD
+# ==========================================
+
+Homestead.json
+Homestead.yaml
